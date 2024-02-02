@@ -247,6 +247,7 @@
     display: flex;
     justify-items: space-between;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .misc_content {
@@ -254,4 +255,23 @@
     height: 15rem;
     width: 50%;
     padding-left: 1rem;
+}
+
+.partners_inner_width {
+    width: 55rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+.img_container {
+    border: solid 1px black;
+    height: 7rem;
+    width: 30rem;
+}
+
+.partners_img {
+    height: 100%;
+    width: 100%;
 }
