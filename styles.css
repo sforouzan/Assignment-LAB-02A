@@ -1,7 +1,6 @@
-@import url('https://fonts.google.com/specimen/Josefin+Sans?stroke=Sans+Serif&stylecount=3');
-
 * {
     font-family: 'Josefin Sans', Helvetica, Verdana, sans-serif;
+}
 
 .page_home {
     margin: 0;
