@@ -36,36 +36,89 @@
     height: 100%;
     display: flex;
     align-items: center;
+    font-size: 0.7rem;
+    text-decoration: none;
 }
+
 
 .home {
     background-color: #25c389;
     height: 100%;
     width: 5rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.home_pic {
+    height: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .pages {
     background-color: #ffb901;
     height: 100%;
     width: 5rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.pages_pic {
+    height: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .blog {
     background-color: #de6262;
     height: 100%;
     width: 5rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.blog_pic {
+    height: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio {
     background-color: #1691bd;
     height: 100%;
     width: 5rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.portfolio_pic {
+    height: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .mail {
     background-color: #166ba2;
     height: 100%;
     width: 5rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.mail_pic {
+    height: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel_container {
