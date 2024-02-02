@@ -1,0 +1,176 @@
+.page_home {
+    margin: 0;
+}
+
+.header_container {
+    width: 100vw;
+    height: 3.5rem;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_inner_width  {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 1rem;
+}
+
+.logo_inner_container {
+    background-color: purple;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_inner_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    background-color: green;
+    height: 100%;
+    width: 5rem;
+}
+
+.pages {
+    background-color: yellow;
+    height: 100%;
+    width: 5rem;
+}
+
+.blog {
+    background-color: red;
+    height: 100%;
+    width: 5rem;
+}
+
+.portfolio {
+    background-color: lightblue;
+    height: 100%;
+    width: 5rem;
+}
+
+.mail {
+    background-color: blue;
+    height: 100%;
+    width: 5rem;
+}
+
+.carousel_container {
+    height: 22rem;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel_inner_width {
+    background-color: red;
+    height: 100%;
+    width: 60rem;
+}
+
+.carousel_img {
+    height: 100%;
+    width: 100%;
+}
+
+.greeting_container {
+    background-color: aliceblue;
+    min-height: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.greeting_inner_width {
+    background-color: antiquewhite;
+    width: 50rem;
+}
+
+.greeting_text_box {
+    display: flex;
+    justify-content: center;
+}
+
+.greeting {
+    font-size: 2rem;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.service_inner_width {
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.service_header_container {
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.section_header {
+    font-size: 1rem;
+}
+
+.service_card_container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.service_card {
+    width: 20rem;
+    height: 10rem;
+    border: solid 1px black;
+}
+
+.recents_inner_width {
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.recents_header_container {
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.recents_header {
+    font-size: 2rem;
+}
+
+.recents_card_container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.recents_card {
+    border: solid 1px black;
+    height: 10rem;
+    width: 30rem;
+}
+
+.recents_img {
+    height: 8rem;
+    width: 100%;
+}
+
+
+
