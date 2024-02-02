@@ -1,3 +1,8 @@
+@import url('https://fonts.google.com/specimen/Josefin+Sans?stroke=Sans+Serif&stylecount=3');
+
+* {
+    font-family: 'Josefin Sans', Helvetica, Verdana, sans-serif;
+
 .page_home {
     margin: 0;
 }
@@ -5,7 +10,6 @@
 .header_container {
     width: 100vw;
     height: 3.5rem;
-    background-color: pink;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,20 +84,19 @@
 }
 
 .greeting_container {
-    background-color: aliceblue;
     min-height: 7rem;
     display: flex;
     justify-content: center;
 }
 
 .greeting_inner_width {
-    background-color: antiquewhite;
     width: 50rem;
 }
 
 .greeting_text_box {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .greeting {
@@ -115,14 +118,13 @@
 
 .service_header_container {
     width: 100%;
-    background-color: pink;
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
 }
 
 .section_header {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .service_card_container {
@@ -146,7 +148,6 @@
 
 .recents_header_container {
     width: 100%;
-    background-color: pink;
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
