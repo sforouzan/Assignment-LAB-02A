@@ -263,15 +263,75 @@
     justify-content: center;
     padding: 1rem;
     gap: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .img_container {
     border: solid 1px black;
     height: 7rem;
-    width: 30rem;
+    width: 100%;
 }
 
 .partners_img {
     height: 100%;
     width: 100%;
+}
+
+.footer_container {
+    height: 35rem;
+    background-color: #16242f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.footer_inner_width {
+    width: 55rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.footer_description {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 2px #374550;
+}
+
+.desc_img {
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.footer_desc_textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_desc_title {
+    margin: 0 0 1rem 1rem;
+    font-size: 1rem;
+}
+
+.footer_desc_text {
+    margin: 0 0 1rem 1rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-style: italic;
+}
+
+.footer_about {
+    width: 17rem;
+}
+
+.footer_content_title {
+    font-size: 1.2rem;
+}
+
+.footer_about_text {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
 }
