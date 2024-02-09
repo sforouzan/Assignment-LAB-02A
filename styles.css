@@ -153,16 +153,15 @@
     width: 100%;
 }
 
-.left {
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    justify-content: center;
+.list {
+    position: absolute;
+    top: 12rem;
+    left: 20rem;
+    list-style: none;
 }
 
-.right{ 
-    width: 2rem;
-    height: 2rem;
+.list_item {
+    padding-bottom: 1rem;
 }
 
 .greeting_container {
@@ -198,7 +197,8 @@
 .section_header_container {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 1rem;
 }
 
@@ -212,6 +212,11 @@
 
 .section_header {
     font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.sub_header {
+    font-size: 0.8rem;
 }
 
 .service_card_container {
@@ -223,7 +228,22 @@
     width: 20rem;
     height: 10rem;
     border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
 }
+
+.service_card_header {
+    margin-bottom: 0;
+}
+
+.service_description {
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
 
 .recents_card_container {
     display: flex;
