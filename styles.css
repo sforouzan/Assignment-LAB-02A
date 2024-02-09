@@ -141,27 +141,55 @@
     background-color: lightgrey;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .carousel_inner_width {
     height: 100%;
     width: 60rem;
+    position: relative;
+    max-width: 100%;
 }
 
 .carousel_img {
     height: 100%;
     width: 100%;
+    display: block;
 }
 
 .list {
     position: absolute;
-    top: 12rem;
-    left: 20rem;
+    top: 7rem;
+    left: 4rem;
     list-style: none;
+    z-index: 1;
 }
 
 .list_item {
     padding-bottom: 1rem;
+}
+
+.list :nth-child(1) {
+    background-color: white;
+    width: 6rem;
+    padding: 0.5rem;
+    margin-bottom: 0.2rem;
+    border-left: solid 6px #186aa2;
+}
+
+.list :nth-child(2) {
+    background-color: white;
+    width: 7rem;
+    padding: 0.5rem;
+    margin-bottom: 0.2rem;
+    border-left: solid 6px #df6260;
+}
+
+.list :nth-child(3) {
+    background-color: white;
+    width: 9rem;
+    padding: 0.5rem;
+    border-left: solid 6px #fcbb00;
 }
 
 .greeting_container {
@@ -243,7 +271,6 @@
     text-align: center;
     line-height: 0.8rem;
 }
-
 
 .recents_card_container {
     display: flex;
@@ -388,7 +415,6 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: red;
 }
 
 .image_grid {
@@ -396,6 +422,7 @@
     flex-wrap: wrap;
     width: 100%;
     flex: 1;
+    align-content: flex-start;
 }
 
 .gallery_row {
@@ -404,7 +431,6 @@
     gap: 0.5rem;
     margin-bottom: 0.5rem;
 }
-
 
 .gallery_image {
     width: 5rem;
@@ -442,3 +468,28 @@
     line-height: 1.5rem;
 }
 
+.email {
+    height: 2rem;
+    border: none;
+    background-color: #de6262;
+    width: 12rem;
+}
+
+.email::placeholder {
+    color: white;
+    padding-left: 0.8rem;
+}
+
+.email_input {
+    display: flex;
+}
+
+.submit_button {
+    background-color: #ffb901;
+    border: none;
+    width: 2rem;
+}
+
+.email_icon {
+    width: 1rem;
+}
