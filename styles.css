@@ -174,7 +174,7 @@
     font-weight: bolder;
 }
 
-.blue_greeting {
+.blue_text {
     color: #1eafde;
 }
 
@@ -294,7 +294,7 @@
 }
 
 .footer_inner_width {
-    width: 55rem;
+    width: 70rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -330,15 +330,82 @@
     font-style: italic;
 }
 
-.footer_about {
-    width: 17rem;
+.footer_row {
+    display: flex;
+    gap: 2rem;
+
 }
 
 .footer_content_title {
     font-size: 1.2rem;
+    border-bottom: solid 2px #374550;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .footer_about_text {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.footer_about {
+    flex: 1;
+}
+
+.footer_photos {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: red;
+}
+
+.image_grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex: 1;
+}
+
+.gallery_row {
+    display: flex;
+    width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.gallery_image {
+    width: 5rem;
+    height: 5rem;
+}
+
+.footer_tweets {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.twitter_icon {
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.tweet_container {
+    display: flex;
+}
+
+.tweet {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+}
+
+.footer_newsletter {
+    flex: 1;
+}
+
+.footer_news_text {
     font-size: 0.8rem;
     line-height: 1.5rem;
 }
