@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
-    font-family: 'Josefin Sans', Helvetica, Verdana, sans-serif;
+    font-family: 'Open Sans', Helvetica, Verdana, sans-serif;
 }
 
 .page_home {
@@ -169,6 +171,11 @@
 
 .greeting {
     font-size: 2rem;
+    font-weight: bolder;
+}
+
+.blue_greeting {
+    color: #1eafde;
 }
 
 .section {
