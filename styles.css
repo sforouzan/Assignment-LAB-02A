@@ -512,24 +512,33 @@
     width: 1rem;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 768px) {
     .carousel_container {
         display: none;
     }
 
     .service_card_container {
         flex-direction: row;
-        margin-left: 20rem;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
-    .greeting_text_box {
-        margin-left: 20rem;
+    .recents_card_container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 15rem; 
+        display: flex;
+        margin-left: 3.8rem;
     }
 
-    .greteting {
-        max-width: 10rem;
+    .projects_cardrow {
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        max-width: 15rem;
+        margin-left: 3.8rem;
     }
+
 
     
 }
