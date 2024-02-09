@@ -153,6 +153,18 @@
     width: 100%;
 }
 
+.left {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.right{ 
+    width: 2rem;
+    height: 2rem;
+}
+
 .greeting_container {
     min-height: 7rem;
     display: flex;
