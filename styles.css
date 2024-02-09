@@ -21,6 +21,7 @@
     flex-direction: row;
     height: 100%;
     gap: 1rem;
+    max-width: 100vw;
 }
 
 .logo_inner_container {
@@ -42,6 +43,7 @@
     align-items: center;
     font-size: 0.7rem;
     text-decoration: none;
+    width: 100%;
 }
 
 
@@ -56,7 +58,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
-
 }
 
 .home_pic {
@@ -298,6 +299,7 @@
     display: flex;
     gap: 1rem;
 }
+
 .project_card {
     border: solid 1px black;
     height: 10rem;
@@ -332,15 +334,24 @@
     margin-bottom: 2.5rem;
 }
 
+.img_row {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex: 1;
+}
+
 .img_container {
     border: solid 1px black;
+    flex: 1;
     height: 7rem;
-    width: 100%;
+    width: 30rem;
 }
 
 .partners_img {
     height: 100%;
     width: 100%;
+    max-width: 100%;
 }
 
 .footer_container {
@@ -488,6 +499,7 @@
     background-color: #ffb901;
     border: none;
     width: 2rem;
+    cursor: pointer;
 }
 
 .email_icon {
