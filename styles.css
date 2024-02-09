@@ -511,3 +511,26 @@
 .email_icon {
     width: 1rem;
 }
+
+@media screen and (max-width: 414px) {
+    .carousel_container {
+        display: none;
+    }
+
+    .service_card_container {
+        flex-direction: row;
+        margin-left: 20rem;
+        flex-wrap: wrap;
+    }
+
+    .greeting_text_box {
+        margin-left: 20rem;
+    }
+
+    .greteting {
+        max-width: 10rem;
+    }
+
+    
+}
+  
