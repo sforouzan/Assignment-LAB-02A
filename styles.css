@@ -138,11 +138,12 @@
 }
 
 .carousel_container {
-    height: 22rem;
+    height: 25rem;
     background-color: lightgrey;
     display: flex;
     justify-content: center;
     position: relative;
+    min-width: 100vw;
 }
 
 .carousel_inner_width {
@@ -156,6 +157,7 @@
     height: 100%;
     width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 .list {
@@ -285,8 +287,9 @@
 }
 
 .recents_img {
-    height: 8rem;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .projects_card_container {
@@ -309,6 +312,7 @@
 .projects_img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .misc_container {
@@ -352,6 +356,7 @@
     height: 100%;
     width: 100%;
     max-width: 100%;
+    object-fit: cover;
 }
 
 .footer_container {
@@ -446,6 +451,7 @@
 .gallery_image {
     width: 5rem;
     height: 5rem;
+    object-fit: cover;
 }
 
 .footer_tweets {
@@ -483,7 +489,7 @@
     height: 2rem;
     border: none;
     background-color: #de6262;
-    width: 12rem;
+    width: 100%;
 }
 
 .email::placeholder {
@@ -498,7 +504,7 @@
 .submit_button {
     background-color: #ffb901;
     border: none;
-    width: 2rem;
+    width: 2.5rem;
     cursor: pointer;
 }
 
@@ -506,3 +512,4 @@
     width: 1rem;
 }
 
+@media screen and (max-width:)
