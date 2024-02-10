@@ -526,17 +526,17 @@
     .recents_card_container {
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 15rem; 
+        max-width: 18rem; 
         display: flex;
-        margin-left: 3.8rem;
+        margin-left: 2.5rem;
     }
 
     .projects_cardrow {
         flex-direction: row;
         flex-wrap: wrap;
         display: flex;
-        max-width: 15rem;
-        margin-left: 3.8rem;
+        max-width: 18rem;
+        margin-left: 2.5rem;
     }
 
 
