@@ -854,6 +854,11 @@
     .recents_border {
         border: none;
     }
+
+    .footer_description {
+        margin-bottom: 1.5rem;
+        border-image: linear-gradient(to right,#1cb1db 0%, #1cb1db 30%, #1cb1db 30%, #1cb1db 40%, #374550 40%, #374550 40%) 1;
+    }
 }
 
 /* Large and up */
