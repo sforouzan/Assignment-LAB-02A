@@ -312,6 +312,7 @@
 
 .service_card_header {
     margin-bottom: 0;
+    text-align: center;
 }
 
 .service_description {
@@ -793,6 +794,23 @@
 
 /* Small only */
 @media screen and (max-width: 39.9375em) { 
+    .mob_service_description {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .service_card_header, .service_description {
+        text-align: left;
+    }
+
+    .service_card {
+        flex-direction: row;
+        padding: 0;
+        margin-bottom: -1rem;
+        margin-top: -1rem;
+    }
+
     .footer_photos,
     .footer_newsletter {
         display: none;
